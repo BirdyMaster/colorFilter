@@ -79,3 +79,36 @@ input {
 .filterBtn:hover {
     background-color: rgb(173, 173, 173);
 }
+
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: rgb(255, 111, 111);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: rgb(99, 133, 255);
+}
+
+.green {
+    background-color: rgb(0, 158, 0);
+}
+
+.brown {
+    background-color: rgb(113, 18, 18);
+}
+
+.lightBlue {
+    background-color: lightBlue;
+}
+
+.violet {
+    background-color: violet;
+}
