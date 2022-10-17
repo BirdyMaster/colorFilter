@@ -1,0 +1,81 @@
+*,*::before, *::before {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --box_size: 35px;
+}
+
+body {
+    background-color: rgb(64, 64, 64);
+    height: 95vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.godFatherBox {
+    background-color: rgb(106, 106, 106);
+    padding: 10px;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+
+    margin-left: 50px;
+}
+
+.bundle {
+    padding: 20px;
+    background-color: rgb(150, 150, 150);
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 3px;
+    row-gap: 3px;
+    border-radius: 5px;
+}
+
+.colorSquare {
+    width: var(--box_size);
+    height: var(--box_size);
+    background-color: rgb(0, 92, 92);
+}
+
+.filterBtn{
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+
+    position: relative;
+    width: 80px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 150ms;
+}
+
+.filterText {
+    position: absolute;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    cursor: pointer;
+}
+
+.filterBtn:hover {
+    background-color: rgb(173, 173, 173);
+}
